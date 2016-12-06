@@ -19,7 +19,7 @@ def Knockport(ports):
             print "[-] %s" % e
 
 def main():
-    r = [7, 23, 50, 2350, 43]
+    r = [x, x, x, x, x]
     for comb in permutations(r):
         print "\n[*] Trying Sequence %s" % str(comb)
         Knockports(comb)
